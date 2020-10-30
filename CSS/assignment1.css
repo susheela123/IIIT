@@ -1,5 +1,6 @@
 body{
 	font-family: Arial, Helvetica, sans-serif;
+  background-color: #DAF7A6 ;
 }
 h1{
 	text-align: center;
@@ -8,46 +9,60 @@ h1{
 	box-sizing: border-box;
 }
 
-.content{
-	padding:10px;
-}
-div{
-	margin:10px;
-}
-#chicken-para{
-	background-color:grey;
-	border: 3px solid black; 	
-	box-sizing: border-box;
-}
-#beef-para{
-	background-color:grey;
-	border: 3px solid black; 
-	box-sizing: border-box;
-	
-	
-}
-#sushi-para{
-	background-color:grey;
-	border: 3px solid black; 
-	box-sizing: border-box;
-}
-#chicken{
-	background-color:pink;
-	border: 1px solid black;
-	float:right;
+
+table {
+
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    box-sizing: border-box;
 
 }
-#beef{
-	background-color: blue;
-	border: 1px solid black;
-	float:right;
+
+td{
+  padding: 10px;
+  border-color: #4287f5;
+   border: 2px solid black;
+   box-sizing: border-box;
 }
-#sushi{
-	background-color:orange;
-	border:1px solid black;
-	float:right;
-  color:white;
+.toolbar{
+  background-color: #9beb34;
+  }
+a:hover {
+  background-color: #4287f5;
 }
+
+div{
+  margin:10px;
+}
+#Middle_content{ 
+  width:95%;
+  height:35%;
+  padding-left: 20px;
+}
+#content{
+  float:right;
+  
+  width: 71%;
+}
+#image{
+    float:left;
+    
+    width: 25%;
+    height: 85%;
+   
+}
+img {
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+    height:auto;
+    max-width:100%;
+    max-height:100%;
+}
+
+
+
 
 /********** desktop view **********/
 @media (min-width: 992px) {
